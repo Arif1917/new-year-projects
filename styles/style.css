@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+/* common style */
+section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.common{
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+text-transform: capitalize;
+}
+.common-span{
+    color: #FF0000;
+}
+
 /* banner related style */
 
 .banner{
@@ -35,4 +52,145 @@ font-size: 62px;
 font-weight: 900;
 text-align: center;
 margin-bottom: 15px;
+}
+
+/* off section style */
+
+.off-title{
+    color: rgb(255, 0, 0);
+font-size: 78px;
+font-weight: 650;
+text-align: center;
+margin-bottom: 30px;
+}
+.off-subtitle{
+    color: rgb(255, 0, 0);
+font-size: 22px;
+font-weight: 500;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.offf-subtitle{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+.img-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* greeting part style */
+
+.greeting-container{
+    display: flex;
+    gap: 60px;
+    background: url('../images/Vectorrr.png');
+    padding: 126px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 40px;
+}
+
+.greeting-text{
+    max-width: 600px;
+}
+.greeting-title{
+    color: rgb(255, 255, 255);
+font-size: 54px;
+font-weight: 900;
+text-align: left;
+margin-bottom: 14px;
+}
+
+.greeting-description{
+    color: rgba(255, 255, 255, 0.8);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 14px;
+}
+.greeting-pic img{
+     
+}
+
+
+.circle{
+    height: 400px;
+    width: 400px;
+    border: 12px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new-best{
+    color: rgb(255, 0, 0);
+font-size: 22px;
+font-weight: 500;
+text-align: left;
+}
+.coming-soon{
+    color: rgb(7, 2, 17);
+font-size: 42px;
+font-weight: 900;
+text-align: left;
+text-transform: capitalize;
+}
+.dolor-sit{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+
+.div-first{
+    width: 350px;
+}
+.div-third{
+    width: 245px;
+}
+
+.new-year{
+    color: rgb(255, 0, 0);
+font-size: 45px;
+font-weight: 700;
+text-align: left;
+}
+
+.btn-style{
+    border-radius: 8px;
+padding: 8px 19px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+border: none;
+outline: none;
+}
+
+.btn-div{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section{
+    border-radius: 16px;
+    margin: 50px 40px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
 }
