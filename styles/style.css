@@ -114,9 +114,6 @@ font-weight: 400;
 text-align: left;
 margin-bottom: 14px;
 }
-.greeting-pic img{
-     
-}
 
 
 .circle{
@@ -193,4 +190,58 @@ outline: none;
     margin: 50px 40px;
 
 background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+
+
+/* items-section */
+.items-section{
+    margin: 50px 40px;
+}
+.items-content{
+        width: 540px;
+}
+
+.items-subtitle{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+text-align: left;
+}
+.items-title{
+    color: rgb(7, 2, 17);
+font-size: 46px;
+font-weight: 900;
+text-align: left;
+text-transform: capitalize;
+}
+.items-paragraph{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+}
+
+.items-img-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      border-radius: 10px;
+      width: 100%;
+      margin-top: 40px;
+}
+
+.items-img img{
+    width: 100%;
+    height: auto;
+}
+            
+
+
+           /* subsCrib style */
+.subscribe-section{
+    margin: 50px 40px;
+    border-radius: 16px;
+    padding: 80px 200px;
+background: rgba(255, 0, 0, 0.05);
 }
